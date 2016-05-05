@@ -16,6 +16,12 @@
             "Tests\\": "tests/"
         }
     },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/emillosanti/startercategorybundle.git"
+        }
+    ],
     "require": {
         "php": ">=5.5.9",
         "symfony/symfony": "3.0.*",
@@ -26,7 +32,8 @@
         "symfony/monolog-bundle": "^2.8",
         "sensio/distribution-bundle": "^5.0",
         "sensio/framework-extra-bundle": "^3.0.2",
-        "incenteev/composer-parameter-handler": "^2.0"
+        "incenteev/composer-parameter-handler": "^2.0",
+        "starter/category-bundle": "dev-master"
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.0",
