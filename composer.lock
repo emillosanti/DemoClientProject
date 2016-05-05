@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "12c6d57cec87f04b66d025d1ae26e315",
-    "content-hash": "e21d57a577074935bc737b94ad62bf7f",
+    "hash": "ecb3735f3021d2445895d708720e3822",
+    "content-hash": "3b4bf9e7a1dc6c9b7521dd45d816e07e",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -1197,6 +1197,32 @@
             "time": "2015-11-07 08:07:40"
         },
         {
+            "name": "starter/category-bundle",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/emillosanti/startercategorybundle.git",
+                "reference": "3effb936d3baeb6136fc11752a781380b4402e1c"
+            },
+            "require": {
+                "doctrine/orm": "^2.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Starter\\CategoryBundle\\": ""
+                }
+            },
+            "authors": [
+                {
+                    "name": "emillo",
+                    "email": "emil.the.studious@gmail.com"
+                }
+            ],
+            "description": "Provide a basic category entity",
+            "time": "2016-05-05 10:44:11"
+        },
+        {
             "name": "swiftmailer/swiftmailer",
             "version": "v5.4.2",
             "source": {
@@ -1951,22 +1977,15 @@
             "time": "2016-04-12 18:09:53"
         }
     ],
-    "aliases": [
-
-    ],
+    "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ],
+    "stability-flags": {
+        "starter/category-bundle": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "php": ">=5.5.9"
     },
-    "platform-dev": [
-
-    ],
-    "platform-overrides": {
-        "php": "5.5.9"
-    }
+    "platform-dev": []
 }
